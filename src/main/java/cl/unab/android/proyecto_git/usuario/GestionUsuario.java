@@ -1,3 +1,7 @@
+package cl.unab.android.proyecto_git.usuario;
+
+import java.util.ArrayList;
+
 public class GestionUsuario {
     ArrayList<Usuario> usuarios;
 
@@ -10,6 +14,6 @@ public class GestionUsuario {
         nuevoUsuario.setNombre(nombre);
         nuevoUsuario.setMail(mail);
 
-        usuarios.add(nuevoUsuario);;
+        usuarios.add(nuevoUsuario);
     }
 }
